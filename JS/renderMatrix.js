@@ -14,7 +14,6 @@ function renderChessBoard() {
     //casillas color de relleno segun tema
     claro: colorClaro,
     oscuro: colorOscuro,
-    piezaColor: colorPieza,
   };
 
   for (let x = 0; x < fila; x++) {
@@ -39,7 +38,7 @@ function renderChessBoard() {
       );
       const pieza = chessBoard[x][y];
       if (pieza) {
-        textColor = TEMA.piezaColor;
+        textColor = chessBoard[x][y].bando;
         tablero.fillStyle = textColor;
         tablero.font = "75px Arial";
         tablero.fillText(
