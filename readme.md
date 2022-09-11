@@ -9,6 +9,12 @@
 
 front
 tablero (logica)
+celda
+-seleccionar
+recordar ultima posicion
+visualizar mov legales
+vizualizar pieza 
+drag on drop
 fichas 
 movimientos
 legales 

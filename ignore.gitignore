@@ -1,0 +1,70 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode
+# Editar en https://www.toptal.com/developers/gitignore?templates=windows,linux,visualstudiocode
+
+### Linux ###
+*~
+
+# archivos temporales que se pueden crear si un proceso todavía tiene un identificador abierto de un archivo eliminado
+.fuse_hidden*
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+# Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/configuración.json
+!.vscode/tareas.json
+!.vscode/lanzamiento.json
+!.vscode/extensiones.json
+!.vscode/*.fragmentos de código
+
+# Historial local para Visual Studio Code
+.historia/
+
+# Extensiones de código de Visual Studio integradas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionuro
+
+# Compatibilidad con el alcance del fragmento de código del proyecto
+.vscode/*.fragmentos de código
+
+# Ignorar espacios de trabajo de código
+*.código-espacio de trabajo
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Volcar archivo
+*.stackdump
+
+# archivo de configuración de la carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$RECICLAJE.BIN/
+
+# archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode

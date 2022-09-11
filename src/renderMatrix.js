@@ -1,3 +1,7 @@
+const mesa = document.getElementById("box_tablero");
+const tablero = mesa.getContext("2d");
+const ancho = mesa.width;
+
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal) {
   tablero.beginPath();
   tablero.strokeStyle = color;

@@ -1,0 +1,19 @@
+{
+  "name": "ajedrez_js",
+  "version": "1.0.0",
+  "description": "Proyecto ajedrez. primer proyecto serio. crear un juego de ajedrez desde cero.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JACguilar/Ajedrez-JS.git"
+  },
+  "author": "Jacobo Aguilar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JACguilar/Ajedrez-JS/issues"
+  },
+  "homepage": "https://github.com/JACguilar/Ajedrez-JS#readme"
+}

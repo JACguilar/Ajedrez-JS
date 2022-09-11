@@ -1,6 +1,3 @@
-const mesa = document.getElementById("box_tablero");
-const tablero = mesa.getContext("2d");
-const ancho = mesa.width;
 const fila = 8;
 const columna = 8;
 const casilla = ancho / 8;
